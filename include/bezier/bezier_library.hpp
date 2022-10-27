@@ -200,7 +200,7 @@ protected:
                    const float green,
                    const float blue,
                    const float alpha = 1.0,
-                   std::string frame_id = "/base_link");
+                   std::string frame_id = "base_link");
 
   /**
    * Display a colored trajectory
@@ -412,4 +412,3 @@ public:
 };
 
 #endif
-
