@@ -1,5 +1,4 @@
- [![Institut Maupertuis logo](https://avatars1.githubusercontent.com/u/12760694?v=3&s=80)](http://www.institutmaupertuis.fr) filterExtricationTrajectory
-===
+# filterExtricationTrajectory
 
 The purpose of this function is to remove poses located on each extremum of an extrication trajectory.
 
@@ -25,10 +24,10 @@ The following picture shows the projection (purple arrow) of the normal (Nor, gr
 ![extrication_reference_vector_proj](extrication_reference_vector_proj.png)
 
 The following picture shows the reference vector (projection of the normal Nor, purple arrow) and all the vectors AN, A(N+1), A(N+2) ... (orange arrows) used to computes
-the 2D angles : 
+the 2D angles :
 
 ![extrication_filter_vectors](extrication_filter_vectors.png)
 
-The following animation shows the result when the filter is applied : 
+The following animation shows the result when the filter is applied :
 
 ![extrication_filter](extrication_filter.gif)

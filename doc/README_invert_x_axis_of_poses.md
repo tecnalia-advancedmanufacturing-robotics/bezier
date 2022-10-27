@@ -1,5 +1,4 @@
- [![Institut Maupertuis logo](https://avatars1.githubusercontent.com/u/12760694?v=3&s=80)](http://www.institutmaupertuis.fr) invertXAxisOfPoses
-===
+# invertXAxisOfPoses
 
 This function is used to reverse the direction of the X axis. It is done by making a `Pi` rotation along the Z axis.
 
